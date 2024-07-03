@@ -2,9 +2,9 @@
 
 This is a simple script to:
 
-- Connect to a running browser (at port 9222)
 - Using Puppeteer
-  - Load the YouTube comments page which uses infinite scroll
+  - Connect to a running browser (at port 9222. Launch Chrome with CLI parameter --remote-debugging-port=9222)
+  - Load the [YouTube comments page ]('https://myactivity.google.com/page?hl=en&utm_medium=web&utm_source=youtube&page=youtube_comments') which uses infinite scroll
   - Keep scrolling till the end of infinite scroll showing all your comments
 
 ## TODO
